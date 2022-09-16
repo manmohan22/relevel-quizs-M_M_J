@@ -25,7 +25,7 @@ function divBySeven(array){
     }
     console.log(array2)
 }
-divBySeven(array1);
+// divBySeven(array1);
 
 
 /**
@@ -48,5 +48,13 @@ arr2 = [32,34,56,21,49,11,34,30]
     }
     console.log(array2)
 }
-divByVal(arr1,9);
-divByVal(arr2,6);
+// divByVal(arr1,9);
+// divByVal(arr2,6);
+
+
+// =====================================================================
+
+const divByN = (arr,num)=> arr.filter((element) => element % num === 0);
+
+console.log(divByN(arr1,9));
+console.log(divByN(arr2,6));
